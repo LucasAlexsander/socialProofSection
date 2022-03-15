@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+* {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('images/bg-pattern-top-desktop.svg') no-repeat top left, 
+    url('images/bg-pattern-bottom-desktop.svg') no-repeat right bottom;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body .container {
+    width: 1110px;
+    height: 600px;
+}
+.container .text-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container .text-area .info {
+    width: 450px;
+    height: auto;
+}
+.container .text-area h2 {
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: -5px;
+}
+.container .text-area p {
+    opacity: 0.7;
+}
+
+/* Cards Stars */
+.cards-stars {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.cards-stars .card-star-area {
+    width: 445px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.cards-stars .card-star-area .stars img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.cards-stars .card-star-area p {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    
+}
+.primeiro {
+    margin-right: 90px;
+}
+.segundo {
+    margin-right: 45px;
+}
+/* 540px */
+
+.container .cards {
+    width: 100%;
+    height: 268px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container .cards .card-area {
+    height: 235px;
+    width: 350px;
+    background: hsl(301, 45%, 22%);
+    border-radius: 12px;
+    padding: 30px 30px;
+}
+.cards .card-area .profile {
+    display: flex;
+    align-items: center;
+}
+.cards .card-area .profile .name-info {
+    line-height: 0px;
+    color: white;
+}
+.card-area .profile .name-info p {
+    opacity: 0.6;
+    margin-top: -6px;
+}
+.card-area .profile img {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.cards .card-area .desc {
+    margin-top: 20px;
+}
+.cards .card-area .desc p {
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+}
+.segundoCard {
+    margin-top: 15px;
+}
+.terceiroCard {
+    margin-top: 30px;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
